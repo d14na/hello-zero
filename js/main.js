@@ -34,7 +34,7 @@ const vueAppManager = {
 
         /* App Summary */
         appTitle: 'Hell0',
-        appDesc: 'Boilerplate templates for Zer0net publishers.',
+        appDesc: 'Boilerplate Zer0net template for advanced (dynamic) zite creation.',
 
         /* Zite Summary */
         ziteAddress: 'n/a',
@@ -54,7 +54,7 @@ const vueAppManager = {
             // NOTE Globally accessible (e.g. Zero.cmd(...))
             window.Zero = new ZeroApp()
 
-            console.info('Vue + Zer0net have loaded successfully!')
+            console.info('App.() & Zero.() have loaded successfully!')
         }
     }
 }
