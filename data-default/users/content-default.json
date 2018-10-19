@@ -16,7 +16,7 @@
     },
     "permissions": {
       "bad@zeroid.bit": false,
-      "nofish@zeroid.bit": { "max_size": 100000 }
+      "d14na@zeroid.bit": { "max_size": 100000 }
     }
   }
 }
