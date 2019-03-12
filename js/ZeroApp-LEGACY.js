@@ -75,9 +75,9 @@
                 return this.cmd('innerReady')
             } else if (cmd === 'ping') {
                 return this.response(message.id, 'pong')
-            } else if (cmd === 'wrapperOpenedWebSocket') {
+            } else if (cmd === 'wrapperOpenedWebsocket') {
                 return this.onOpenWebSocket()
-            } else if (cmd === 'wrapperClosedWebSocket') {
+            } else if (cmd === 'wrapperClosedWebsocket') {
                 return this.onCloseWebSocket()
             } else {
                 return this.route(cmd, message)

@@ -16,10 +16,11 @@ class ZeroApp extends ZeroApi {
     }
 
     onEvent(_event, _message) {
-        if (_event === 'setSiteInfo')
+        if (_event === 'setSiteInfo') {
             this.setSiteInfo(_message.params)
-        else
-            this.log('Unknown event:', _event)
+        } else {
+            this._log('Unknown event:', _event)
+        }
     }
 }
 

@@ -30,23 +30,23 @@
    "size": 630
   },
   "index.html": {
-   "sha512": "978096767d9687397ff6f1872706f77e558883ad1ccd44bdaf93ad4b086665cb",
-   "size": 2896
+   "sha512": "9afb4aa4020945e26b0ce72dc8a332b93a7cdc2c620843b634515cadb9184f76",
+   "size": 2599
   },
   "js/ZeroApp-LEGACY.js": {
    "sha512": "5f39e56781fecc42c1a99fea4fdd06d1c22b992f8c3ae3f98a8f48edde3dc5c2",
    "size": 13696
   },
   "js/main.js": {
-   "sha512": "59c79b0e6dd80797868ea8fd40b7b45ecfe1c097355e491a438d11f42db56a28",
-   "size": 1515
+   "sha512": "ddd81b69cc72e647ef2efd39623bc28c39ebbd365a3e5421ec3403b49aa229bd",
+   "size": 1518
   },
   "package.json": {
    "sha512": "38d9c384bf1ef28ef4d1f8720e94878547697bbb1b3f8f8b189095153b5b5d5e",
    "size": 277
   }
  },
- "ignore": "(\\.git|data/.*)",
+ "ignore": "(\\.git|data/.*|templates/)",
  "includes": {
   "data/users/content.json": {
    "signers": [],
@@ -54,14 +54,15 @@
   }
  },
  "inner_path": "content.json",
- "modified": 1539912131,
+ "modified": 1539912448,
  "optional": "",
  "postmessage_nonce_security": true,
  "signers_sign": "G9oCMxuv5mm0b8NSqMFYq6yOZtuVDgbklwQXHZsdOUoBD4prq+92kiaIvgpHuDnw6RrYWrPVya0NI+LAr2XnIVo=",
  "signs": {
-  "1HELLoZc877A9ZcgDWWiGJsC9PMmipPBG9": "Gze0Bb61zrdbSkYbrQGjqYc9ZPkqooOQ8ByYqizYlfOGNRidk8Uv492E5cdaZefu0z8ZJTLpEzHQHngMpOg6RPo="
+  "1HELLoZc877A9ZcgDWWiGJsC9PMmipPBG9": "HPHyGlTiS5wY1ayNB77yP0ub4Tsrb/kAVG6LCy1evpdOG41BTuyI352YIGyTrnKki6nna4Aa1czeqVNX0u0tbgo="
  },
  "signs_required": 1,
  "title": "Hello Zero",
+ "viewport": "width=device-width, initial-scale=1.0",
  "zeronet_version": "0.6.3"
 }
